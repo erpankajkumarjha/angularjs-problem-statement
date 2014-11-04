@@ -1,0 +1,15 @@
+Developed By Pankaj Kumar Jha
+Technology used: PHP, MySQL(PDO), AngulerJs, Bootstrap
+
+1. Database Setting in function.php
+  function __construct(){	
+	$this->host =  "localhost";
+	$this->dbUser = "root";
+	$this->dbPassword = 'mysql';
+	$this->database = 'ajs-test';
+
+
+2. Need to modify web service url in js/services.js 
+   var serviceUrl= 'http://localhost/gcAJSDemoApp/php/';
+
+3. Team and Players image placed in img folder.   
